@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		800E90D9172EAC8500B9610C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 800E90D8172EAC8500B9610C /* UIKit.framework */; };
+		800E90DB172EAC8500B9610C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 800E90DA172EAC8500B9610C /* Foundation.framework */; };
+		800E90DD172EAC8500B9610C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 800E90DC172EAC8500B9610C /* CoreGraphics.framework */; };
+		800E90E3172EAC8500B9610C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 800E90E1172EAC8500B9610C /* InfoPlist.strings */; };
+		800E90E5172EAC8500B9610C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 800E90E4172EAC8500B9610C /* main.m */; };
+		800E90E9172EAC8500B9610C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 800E90E8172EAC8500B9610C /* AppDelegate.m */; };
+		800E90EB172EAC8500B9610C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 800E90EA172EAC8500B9610C /* Default.png */; };
+		800E90ED172EAC8500B9610C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 800E90EC172EAC8500B9610C /* Default@2x.png */; };
+		800E90EF172EAC8500B9610C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 800E90EE172EAC8500B9610C /* Default-568h@2x.png */; };
+		800E90F2172EAC8500B9610C /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 800E90F0172EAC8500B9610C /* MainStoryboard_iPhone.storyboard */; };
+		800E90F5172EAC8500B9610C /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 800E90F3172EAC8500B9610C /* MainStoryboard_iPad.storyboard */; };
+		800E90F8172EAC8500B9610C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 800E90F7172EAC8500B9610C /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		800E90D5172EAC8500B9610C /* LRDNotificationView Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LRDNotificationView Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		800E90D8172EAC8500B9610C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		800E90DA172EAC8500B9610C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		800E90DC172EAC8500B9610C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		800E90E0172EAC8500B9610C /* LRDNotificationView Example-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LRDNotificationView Example-Info.plist"; sourceTree = "<group>"; };
+		800E90E2172EAC8500B9610C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		800E90E4172EAC8500B9610C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		800E90E6172EAC8500B9610C /* LRDNotificationView Example-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LRDNotificationView Example-Prefix.pch"; sourceTree = "<group>"; };
+		800E90E7172EAC8500B9610C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		800E90E8172EAC8500B9610C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		800E90EA172EAC8500B9610C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		800E90EC172EAC8500B9610C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		800E90EE172EAC8500B9610C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		800E90F1172EAC8500B9610C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		800E90F4172EAC8500B9610C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		800E90F6172EAC8500B9610C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		800E90F7172EAC8500B9610C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		800E90D2172EAC8500B9610C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				800E90D9172EAC8500B9610C /* UIKit.framework in Frameworks */,
+				800E90DB172EAC8500B9610C /* Foundation.framework in Frameworks */,
+				800E90DD172EAC8500B9610C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		800E90CC172EAC8500B9610C = {
+			isa = PBXGroup;
+			children = (
+				800E90DE172EAC8500B9610C /* LRDNotificationView Example */,
+				800E90D7172EAC8500B9610C /* Frameworks */,
+				800E90D6172EAC8500B9610C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		800E90D6172EAC8500B9610C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				800E90D5172EAC8500B9610C /* LRDNotificationView Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		800E90D7172EAC8500B9610C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				800E90D8172EAC8500B9610C /* UIKit.framework */,
+				800E90DA172EAC8500B9610C /* Foundation.framework */,
+				800E90DC172EAC8500B9610C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		800E90DE172EAC8500B9610C /* LRDNotificationView Example */ = {
+			isa = PBXGroup;
+			children = (
+				800E90E7172EAC8500B9610C /* AppDelegate.h */,
+				800E90E8172EAC8500B9610C /* AppDelegate.m */,
+				800E90F0172EAC8500B9610C /* MainStoryboard_iPhone.storyboard */,
+				800E90F3172EAC8500B9610C /* MainStoryboard_iPad.storyboard */,
+				800E90F6172EAC8500B9610C /* ViewController.h */,
+				800E90F7172EAC8500B9610C /* ViewController.m */,
+				800E90DF172EAC8500B9610C /* Supporting Files */,
+			);
+			path = "LRDNotificationView Example";
+			sourceTree = "<group>";
+		};
+		800E90DF172EAC8500B9610C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				800E90E0172EAC8500B9610C /* LRDNotificationView Example-Info.plist */,
+				800E90E1172EAC8500B9610C /* InfoPlist.strings */,
+				800E90E4172EAC8500B9610C /* main.m */,
+				800E90E6172EAC8500B9610C /* LRDNotificationView Example-Prefix.pch */,
+				800E90EA172EAC8500B9610C /* Default.png */,
+				800E90EC172EAC8500B9610C /* Default@2x.png */,
+				800E90EE172EAC8500B9610C /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		800E90D4172EAC8500B9610C /* LRDNotificationView Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 800E90FB172EAC8500B9610C /* Build configuration list for PBXNativeTarget "LRDNotificationView Example" */;
+			buildPhases = (
+				800E90D1172EAC8500B9610C /* Sources */,
+				800E90D2172EAC8500B9610C /* Frameworks */,
+				800E90D3172EAC8500B9610C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LRDNotificationView Example";
+			productName = "LRDNotificationView Example";
+			productReference = 800E90D5172EAC8500B9610C /* LRDNotificationView Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		800E90CD172EAC8500B9610C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Little Red Door Ltd.";
+			};
+			buildConfigurationList = 800E90D0172EAC8500B9610C /* Build configuration list for PBXProject "LRDNotificationView Example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 800E90CC172EAC8500B9610C;
+			productRefGroup = 800E90D6172EAC8500B9610C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				800E90D4172EAC8500B9610C /* LRDNotificationView Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		800E90D3172EAC8500B9610C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				800E90E3172EAC8500B9610C /* InfoPlist.strings in Resources */,
+				800E90EB172EAC8500B9610C /* Default.png in Resources */,
+				800E90ED172EAC8500B9610C /* Default@2x.png in Resources */,
+				800E90EF172EAC8500B9610C /* Default-568h@2x.png in Resources */,
+				800E90F2172EAC8500B9610C /* MainStoryboard_iPhone.storyboard in Resources */,
+				800E90F5172EAC8500B9610C /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		800E90D1172EAC8500B9610C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				800E90E5172EAC8500B9610C /* main.m in Sources */,
+				800E90E9172EAC8500B9610C /* AppDelegate.m in Sources */,
+				800E90F8172EAC8500B9610C /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		800E90E1172EAC8500B9610C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				800E90E2172EAC8500B9610C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		800E90F0172EAC8500B9610C /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				800E90F1172EAC8500B9610C /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		800E90F3172EAC8500B9610C /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				800E90F4172EAC8500B9610C /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		800E90F9172EAC8500B9610C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		800E90FA172EAC8500B9610C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		800E90FC172EAC8500B9610C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LRDNotificationView Example/LRDNotificationView Example-Prefix.pch";
+				INFOPLIST_FILE = "LRDNotificationView Example/LRDNotificationView Example-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		800E90FD172EAC8500B9610C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LRDNotificationView Example/LRDNotificationView Example-Prefix.pch";
+				INFOPLIST_FILE = "LRDNotificationView Example/LRDNotificationView Example-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		800E90D0172EAC8500B9610C /* Build configuration list for PBXProject "LRDNotificationView Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				800E90F9172EAC8500B9610C /* Debug */,
+				800E90FA172EAC8500B9610C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		800E90FB172EAC8500B9610C /* Build configuration list for PBXNativeTarget "LRDNotificationView Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				800E90FC172EAC8500B9610C /* Debug */,
+				800E90FD172EAC8500B9610C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 800E90CD172EAC8500B9610C /* Project object */;
+}
