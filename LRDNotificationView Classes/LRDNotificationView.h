@@ -59,7 +59,7 @@
 /**********************************************************************************************
  Shows a General styled LRDNotificationView alert with an alert image, title and simple message.
  **********************************************************************************************/
-+(void) showGeneralNotificationInViewController:(UIViewController *)viewController withTitle:(NSString *)title withMessage:(NSString *)message andDelegate:(id<LRDNotificationViewDelegate>)delegate;;
++(void) showGeneralNotificationInViewController:(UIViewController *)viewController withTitle:(NSString *)title withMessage:(NSString *)message andDelegate:(id<LRDNotificationViewDelegate>)delegate;
 
 @end
 
