@@ -12,17 +12,17 @@ INSTRUCTIONS FOR USE
 
 AVAILABLE METHODS
 
-+(void) showInViewController:(UIViewController *)viewController withMessage:(NSString *)message andBackgroundColor:(UIColor *)backgroundColor andDelegate:(id<LRDNotificationViewDelegate>)delegate;
+    +(void) showInViewController:(UIViewController *)viewController withMessage:(NSString *)message andBackgroundColor:(UIColor *)backgroundColor andDelegate:(id<LRDNotificationViewDelegate>)delegate;
 
-+(void) showInViewController:(UIViewController *)viewController withTitle:(NSString *)title withMessage:(NSString *)message andBackgroundColor:(UIColor *)backgroundColor andDelegate:(id<LRDNotificationViewDelegate>)delegate;;
+    +(void) showInViewController:(UIViewController *)viewController withTitle:(NSString *)title withMessage:(NSString *)message andBackgroundColor:(UIColor *)backgroundColor andDelegate:(id<LRDNotificationViewDelegate>)delegate;;
 
-+(void) showInViewController:(UIViewController *)viewController withTitle:(NSString *)title withMessage:(NSString *)message withAlertImage:(UIImage *)image andBackgroundColor:(UIColor *)backgroundColor andDelegate:(id<LRDNotificationViewDelegate>)delegate;;
+    +(void) showInViewController:(UIViewController *)viewController withTitle:(NSString *)title withMessage:(NSString *)message withAlertImage:(UIImage *)image andBackgroundColor:(UIColor *)backgroundColor andDelegate:(id<LRDNotificationViewDelegate>)delegate;;
 
-+(void) showSuccessNotificationInViewController:(UIViewController *)viewController withTitle:(NSString *)title withMessage:(NSString *)message andDelegate:(id<LRDNotificationViewDelegate>)delegate;;
+    +(void) showSuccessNotificationInViewController:(UIViewController *)viewController withTitle:(NSString *)title withMessage:(NSString *)message andDelegate:(id<LRDNotificationViewDelegate>)delegate;;
 
-+(void) showErrorNotificationInViewController:(UIViewController *)viewController withTitle:(NSString *)title withMessage:(NSString *)message andDelegate:(id<LRDNotificationViewDelegate>)delegate;;
+    +(void) showErrorNotificationInViewController:(UIViewController *)viewController withTitle:(NSString *)title withMessage:(NSString *)message andDelegate:(id<LRDNotificationViewDelegate>)delegate;;
 
-+(void) showWarningNotificationInViewController:(UIViewController *)viewController withTitle:(NSString *)title withMessage:(NSString *)message andDelegate:(id<LRDNotificationViewDelegate>)delegate;;
+    +(void) showWarningNotificationInViewController:(UIViewController *)viewController withTitle:(NSString *)title withMessage:(NSString *)message andDelegate:(id<LRDNotificationViewDelegate>)delegate;;
 
-+(void) showGeneralNotificationInViewController:(UIViewController *)viewController withTitle:(NSString *)title withMessage:(NSString *)message andDelegate:(id<LRDNotificationViewDelegate>)delegate;
+    +(void) showGeneralNotificationInViewController:(UIViewController *)viewController withTitle:(NSString *)title withMessage:(NSString *)message andDelegate:(id<LRDNotificationViewDelegate>)delegate;
 
