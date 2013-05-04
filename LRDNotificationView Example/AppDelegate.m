@@ -8,11 +8,34 @@
 
 #import "AppDelegate.h"
 
+#define deviceIsiPad UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad
+
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    
+    if (deviceIsiPad)
+    {
+        UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"MainStoryboard_iPad" bundle:nil];
+        UIViewController *mainViewController = [storyboard instantiateInitialViewController];
+        UINavigationController *navCon = [[UINavigationController alloc] initWithRootViewController: mainViewController];
+        self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+        self.window.rootViewController = navCon;
+        
+    }
+    else
+    {
+        UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"MainStoryboard_iPhone" bundle:nil];
+        UIViewController *mainViewController = [storyboard instantiateInitialViewController];
+        UINavigationController *navCon = [[UINavigationController alloc] initWithRootViewController: mainViewController];
+        [[UINavigationBar appearance] setBackgroundImage:[UIImage imageNamed:@"CustomNavBG.png"] forBarMetrics:UIBarMetricsDefault];
+        self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+        self.window.rootViewController = navCon;
+    }
+    
     // Override point for customization after application launch.
+    [self.window makeKeyAndVisible];
     return YES;
 }
 							

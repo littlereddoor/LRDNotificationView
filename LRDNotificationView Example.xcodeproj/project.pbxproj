@@ -19,6 +19,24 @@
 		800E90F2172EAC8500B9610C /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 800E90F0172EAC8500B9610C /* MainStoryboard_iPhone.storyboard */; };
 		800E90F5172EAC8500B9610C /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 800E90F3172EAC8500B9610C /* MainStoryboard_iPad.storyboard */; };
 		800E90F8172EAC8500B9610C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 800E90F7172EAC8500B9610C /* ViewController.m */; };
+		800E910C172EACB400B9610C /* errorIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 800E90FF172EACB400B9610C /* errorIcon.png */; };
+		800E910D172EACB400B9610C /* errorIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 800E9100172EACB400B9610C /* errorIcon@2x.png */; };
+		800E910E172EACB400B9610C /* generalIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 800E9101172EACB400B9610C /* generalIcon.png */; };
+		800E910F172EACB400B9610C /* generalIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 800E9102172EACB400B9610C /* generalIcon@2x.png */; };
+		800E9110172EACB400B9610C /* location.png in Resources */ = {isa = PBXBuildFile; fileRef = 800E9103172EACB400B9610C /* location.png */; };
+		800E9111172EACB400B9610C /* location@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 800E9104172EACB400B9610C /* location@2x.png */; };
+		800E9112172EACB400B9610C /* successIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 800E9105172EACB400B9610C /* successIcon.png */; };
+		800E9113172EACB400B9610C /* successIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 800E9106172EACB400B9610C /* successIcon@2x.png */; };
+		800E9114172EACB400B9610C /* warningIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 800E9107172EACB400B9610C /* warningIcon.png */; };
+		800E9115172EACB400B9610C /* warningIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 800E9108172EACB400B9610C /* warningIcon@2x.png */; };
+		800E9116172EACB400B9610C /* LRDNotificationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 800E910B172EACB400B9610C /* LRDNotificationView.m */; };
+		800E9118172EACC300B9610C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 800E9117172EACC300B9610C /* QuartzCore.framework */; };
+		80C7DD6C172FBB190067021B /* LRDNotificationViewAnimations.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C7DD6B172FBB190067021B /* LRDNotificationViewAnimations.m */; };
+		80C7DD74172FF12E0067021B /* CustomNavBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 80C7DD72172FF12E0067021B /* CustomNavBG.png */; };
+		80C7DD75172FF12E0067021B /* CustomNavBG@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80C7DD73172FF12E0067021B /* CustomNavBG@2x.png */; };
+		80C7DD78172FF32E0067021B /* iPhoneWallpaperRetina4.png in Resources */ = {isa = PBXBuildFile; fileRef = 80C7DD77172FF32E0067021B /* iPhoneWallpaperRetina4.png */; };
+		80C7DD7B172FF4860067021B /* iPadWallpaper.png in Resources */ = {isa = PBXBuildFile; fileRef = 80C7DD79172FF4860067021B /* iPadWallpaper.png */; };
+		80C7DD7C172FF4860067021B /* iPadWallpaper@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80C7DD7A172FF4860067021B /* iPadWallpaper@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +57,26 @@
 		800E90F4172EAC8500B9610C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		800E90F6172EAC8500B9610C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		800E90F7172EAC8500B9610C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		800E90FF172EACB400B9610C /* errorIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = errorIcon.png; sourceTree = "<group>"; };
+		800E9100172EACB400B9610C /* errorIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "errorIcon@2x.png"; sourceTree = "<group>"; };
+		800E9101172EACB400B9610C /* generalIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = generalIcon.png; sourceTree = "<group>"; };
+		800E9102172EACB400B9610C /* generalIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "generalIcon@2x.png"; sourceTree = "<group>"; };
+		800E9103172EACB400B9610C /* location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = location.png; sourceTree = "<group>"; };
+		800E9104172EACB400B9610C /* location@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "location@2x.png"; sourceTree = "<group>"; };
+		800E9105172EACB400B9610C /* successIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = successIcon.png; sourceTree = "<group>"; };
+		800E9106172EACB400B9610C /* successIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "successIcon@2x.png"; sourceTree = "<group>"; };
+		800E9107172EACB400B9610C /* warningIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = warningIcon.png; sourceTree = "<group>"; };
+		800E9108172EACB400B9610C /* warningIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "warningIcon@2x.png"; sourceTree = "<group>"; };
+		800E910A172EACB400B9610C /* LRDNotificationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRDNotificationView.h; sourceTree = "<group>"; };
+		800E910B172EACB400B9610C /* LRDNotificationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRDNotificationView.m; sourceTree = "<group>"; };
+		800E9117172EACC300B9610C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		80C7DD6A172FBB190067021B /* LRDNotificationViewAnimations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRDNotificationViewAnimations.h; sourceTree = "<group>"; };
+		80C7DD6B172FBB190067021B /* LRDNotificationViewAnimations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRDNotificationViewAnimations.m; sourceTree = "<group>"; };
+		80C7DD72172FF12E0067021B /* CustomNavBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CustomNavBG.png; sourceTree = SOURCE_ROOT; };
+		80C7DD73172FF12E0067021B /* CustomNavBG@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CustomNavBG@2x.png"; sourceTree = SOURCE_ROOT; };
+		80C7DD77172FF32E0067021B /* iPhoneWallpaperRetina4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhoneWallpaperRetina4.png; sourceTree = SOURCE_ROOT; };
+		80C7DD79172FF4860067021B /* iPadWallpaper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPadWallpaper.png; sourceTree = SOURCE_ROOT; };
+		80C7DD7A172FF4860067021B /* iPadWallpaper@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPadWallpaper@2x.png"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				800E9118172EACC300B9610C /* QuartzCore.framework in Frameworks */,
 				800E90D9172EAC8500B9610C /* UIKit.framework in Frameworks */,
 				800E90DB172EAC8500B9610C /* Foundation.framework in Frameworks */,
 				800E90DD172EAC8500B9610C /* CoreGraphics.framework in Frameworks */,
@@ -58,6 +97,8 @@
 		800E90CC172EAC8500B9610C = {
 			isa = PBXGroup;
 			children = (
+				800E90FE172EACB400B9610C /* LRDNotificationView Assets */,
+				800E9109172EACB400B9610C /* LRDNotificationView Classes */,
 				800E90DE172EAC8500B9610C /* LRDNotificationView Example */,
 				800E90D7172EAC8500B9610C /* Frameworks */,
 				800E90D6172EAC8500B9610C /* Products */,
@@ -75,6 +116,7 @@
 		800E90D7172EAC8500B9610C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				800E9117172EACC300B9610C /* QuartzCore.framework */,
 				800E90D8172EAC8500B9610C /* UIKit.framework */,
 				800E90DA172EAC8500B9610C /* Foundation.framework */,
 				800E90DC172EAC8500B9610C /* CoreGraphics.framework */,
@@ -99,6 +141,7 @@
 		800E90DF172EAC8500B9610C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				80C7DD76172FF1320067021B /* Resources */,
 				800E90E0172EAC8500B9610C /* LRDNotificationView Example-Info.plist */,
 				800E90E1172EAC8500B9610C /* InfoPlist.strings */,
 				800E90E4172EAC8500B9610C /* main.m */,
@@ -108,6 +151,46 @@
 				800E90EE172EAC8500B9610C /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		800E90FE172EACB400B9610C /* LRDNotificationView Assets */ = {
+			isa = PBXGroup;
+			children = (
+				800E90FF172EACB400B9610C /* errorIcon.png */,
+				800E9100172EACB400B9610C /* errorIcon@2x.png */,
+				800E9101172EACB400B9610C /* generalIcon.png */,
+				800E9102172EACB400B9610C /* generalIcon@2x.png */,
+				800E9103172EACB400B9610C /* location.png */,
+				800E9104172EACB400B9610C /* location@2x.png */,
+				800E9105172EACB400B9610C /* successIcon.png */,
+				800E9106172EACB400B9610C /* successIcon@2x.png */,
+				800E9107172EACB400B9610C /* warningIcon.png */,
+				800E9108172EACB400B9610C /* warningIcon@2x.png */,
+			);
+			path = "LRDNotificationView Assets";
+			sourceTree = "<group>";
+		};
+		800E9109172EACB400B9610C /* LRDNotificationView Classes */ = {
+			isa = PBXGroup;
+			children = (
+				800E910A172EACB400B9610C /* LRDNotificationView.h */,
+				800E910B172EACB400B9610C /* LRDNotificationView.m */,
+				80C7DD6A172FBB190067021B /* LRDNotificationViewAnimations.h */,
+				80C7DD6B172FBB190067021B /* LRDNotificationViewAnimations.m */,
+			);
+			path = "LRDNotificationView Classes";
+			sourceTree = "<group>";
+		};
+		80C7DD76172FF1320067021B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				80C7DD79172FF4860067021B /* iPadWallpaper.png */,
+				80C7DD7A172FF4860067021B /* iPadWallpaper@2x.png */,
+				80C7DD77172FF32E0067021B /* iPhoneWallpaperRetina4.png */,
+				80C7DD72172FF12E0067021B /* CustomNavBG.png */,
+				80C7DD73172FF12E0067021B /* CustomNavBG@2x.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +250,21 @@
 				800E90EF172EAC8500B9610C /* Default-568h@2x.png in Resources */,
 				800E90F2172EAC8500B9610C /* MainStoryboard_iPhone.storyboard in Resources */,
 				800E90F5172EAC8500B9610C /* MainStoryboard_iPad.storyboard in Resources */,
+				800E910C172EACB400B9610C /* errorIcon.png in Resources */,
+				800E910D172EACB400B9610C /* errorIcon@2x.png in Resources */,
+				800E910E172EACB400B9610C /* generalIcon.png in Resources */,
+				800E910F172EACB400B9610C /* generalIcon@2x.png in Resources */,
+				800E9110172EACB400B9610C /* location.png in Resources */,
+				800E9111172EACB400B9610C /* location@2x.png in Resources */,
+				800E9112172EACB400B9610C /* successIcon.png in Resources */,
+				800E9113172EACB400B9610C /* successIcon@2x.png in Resources */,
+				800E9114172EACB400B9610C /* warningIcon.png in Resources */,
+				800E9115172EACB400B9610C /* warningIcon@2x.png in Resources */,
+				80C7DD74172FF12E0067021B /* CustomNavBG.png in Resources */,
+				80C7DD75172FF12E0067021B /* CustomNavBG@2x.png in Resources */,
+				80C7DD78172FF32E0067021B /* iPhoneWallpaperRetina4.png in Resources */,
+				80C7DD7B172FF4860067021B /* iPadWallpaper.png in Resources */,
+				80C7DD7C172FF4860067021B /* iPadWallpaper@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,6 +278,8 @@
 				800E90E5172EAC8500B9610C /* main.m in Sources */,
 				800E90E9172EAC8500B9610C /* AppDelegate.m in Sources */,
 				800E90F8172EAC8500B9610C /* ViewController.m in Sources */,
+				800E9116172EACB400B9610C /* LRDNotificationView.m in Sources */,
+				80C7DD6C172FBB190067021B /* LRDNotificationViewAnimations.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +412,7 @@
 				800E90FD172EAC8500B9610C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

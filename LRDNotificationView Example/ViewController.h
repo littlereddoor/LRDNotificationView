@@ -7,7 +7,22 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "LRDNotificationView.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <LRDNotificationViewDelegate>
+
+{
+    
+}
+
+@property (nonatomic, weak) IBOutlet UIImageView            *background;
+
+-(IBAction) simpleNotification:(id)sender;
+-(IBAction) simpleNotificationWithTitle:(id)sender;
+-(IBAction) notificationwithTitleAndImage:(id)sender;
+-(IBAction) templateSuccessNotification:(id)sender;
+-(IBAction) templateErrorNotification:(id)sender;
+-(IBAction) templateWarningNotification:(id)sender;
+-(IBAction) templateGeneralNotification:(id)sender;
 
 @end
