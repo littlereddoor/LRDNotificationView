@@ -4,12 +4,16 @@ LRDNavigationView
 A lightweight Objective-C class to create a semi-obtrusive notification view that emanates from the navigation or status bar of an iPhone or iPad application. Can be thought of along the lines of the error messages found in Tweetbot for 
 iPhone but with the ability to pass in the title, notification message and any required notification image.
 
+![Success](/successerror.png "LRDNotificationView Sucess")
+
 Instructions For Use
 ====================
 
 1) Copy the 'LRDNotificationView Classes' folder and its contents into your Xcode project.
 
-2) Copy the 'LRDNotificationView Assets' folder and its contents into your Xcode project.
+2) Copy the 'LRDNotificationView Assets' folder and its contents into your Xcode project 
+
+**(these are the included assets that make up the 'success', 'error', 'warning' and 'general' notification types. Your own images can be added to the source code if necessary making sure to take note of the ```ICON_SIZE``` ```#define``` at the top of ```LRDNotificationView.m```**
 
 3) Make sure that the QuartzCore framework is added to your Xcode project.
 
