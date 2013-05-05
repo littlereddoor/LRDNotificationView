@@ -19,7 +19,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    //[self setTitle: @"LRDNotificationView"];
+    [self setTitle: @"LRDNotificationView"];
     
     if (deviceIsiPad)
     {
@@ -30,7 +30,7 @@
         [self.background setImage: [UIImage imageNamed:@"iPhoneWallpaperRetina4.png"]];
     }
     
-    UIButton *info = [UIButton buttonWithType: UIButtonTypeInfoDark];
+    UIButton *info = [UIButton buttonWithType: UIButtonTypeInfoLight];
     [info addTarget:self action:@selector(infoTapped:) forControlEvents:UIControlEventTouchUpInside];
     UIBarButtonItem *rightItem = [[UIBarButtonItem alloc] initWithCustomView: info];
     [self.navigationItem setRightBarButtonItem: rightItem];
@@ -39,12 +39,12 @@
 
 -(void)infoTapped:(id)sender
 {
-    [LRDNotificationView showInViewController:self withTitle:@"Little Red Door Ltd." withMessage:@"WEBSITE: www.littlereddoor.co.uk\nEMAIL: hello@littlereddoor.co.uk\nTWITTER: @LittleRedDoorUK" andBackgroundColor:[UIColor redColor] andDelegate:self];
+    [LRDNotificationView showInViewController:self withTitle:@"Little Red Door Ltd." withMessage:@"WEBSITE: www.littlereddoor.co.uk\nEMAIL: hello@littlereddoor.co.uk\nTWITTER: @LittleRedDoorUK" andBackgroundColor:[UIColor blackColor] andDelegate:self];
 }
 
 -(IBAction) simpleNotification:(id)sender
 {
-    [LRDNotificationView showInViewController: self withMessage: @"BREAKING NEWS: Ex Newcastle United Defender Titus Bramble has been found guilty of being a baffoon. More to follow on this story over at LittleRedDoor.co.uk" andBackgroundColor: [UIColor lightGrayColor] andDelegate:self];
+    [LRDNotificationView showInViewController: self withMessage: @"BREAKING NEWS: It's time to add some nice user-facing notifications to your iOS apps with LRDNotificationView. More to follow on this story over at LittleRedDoor.co.uk" andBackgroundColor: [UIColor lightGrayColor] andDelegate:self];
 }
 
 -(IBAction) simpleNotificationWithTitle:(id)sender

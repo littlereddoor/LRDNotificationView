@@ -12,9 +12,9 @@
 
 +(void) beginAnimationWithDuration:(CGFloat)duration onView:(UIView *)notificationView withFrame:(CGRect)frame andOptions:(UIViewAnimationOptions)animationOptions andCompletion:(void (^)(BOOL finished))completion
 {
-    [UIView animateWithDuration: duration
+    [UIView animateWithDuration: duration 
                           delay: 0.0
-                        options: animationOptions
+                        options: animationOptions 
                      animations:^{
                          [notificationView setFrame: frame];
                      }
