@@ -13,7 +13,7 @@ Instructions For Use
 
 2) Copy the 'LRDNotificationView Assets' folder and its contents into your Xcode project 
 
-**(these are the included assets that make up the 'success', 'error', 'warning' and 'general' notification types. Your own images can be added to the source code if necessary making sure to take note of the ```ICON_SIZE``` ```#define``` at the top of ```LRDNotificationView.m```**
+**these are the included assets that make up the 'success', 'error', 'warning' and 'general' notification types. Your own images can be added to the source code if necessary making sure to take note of the ```ICON_SIZE``` ```#define``` at the top of ```LRDNotificationView.m```**
 
 3) Make sure that the QuartzCore framework is added to your Xcode project.
 
@@ -73,7 +73,7 @@ Still To-Do
 ===============
 
 LRDNotificationView was created as a simple alert view for an internal application. There are plenty of ways that the code and implementation of such a control can be improved.
-- Support for landscape mode.
+- Support for landscape mode (detecting orientation change and resizing the notification accordingly).
 - Support for varying animations to display the alert.
 - Potentially allowing the notification to be displayed from bottom of the view or the sides.
     
