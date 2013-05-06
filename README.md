@@ -64,6 +64,11 @@ Delegate Method
 
 Users can subscribe to the ```<LRDNotificationViewDelegate>``` protocol to allow the class to inform their calling view controller when the alert has been dismissed. The application can then perform whatever task is necessary.
 
+    -(void) notificationViewDidDismiss
+    {
+        NSLog(@"Notification View has been dismissed. Handle the relevant action accordingly.");
+    }
+
 Example Application
 ===================
 
